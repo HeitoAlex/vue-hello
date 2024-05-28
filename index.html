@@ -15,7 +15,7 @@
             </h1>
         </div>
         <div>
-            <img :src="imageUrl" alt="">
+            <img :src="imageUrl" alt="" @click="stop">
         </div>
         <div>
             <input id="msg-text" type="text" v-model="message">
